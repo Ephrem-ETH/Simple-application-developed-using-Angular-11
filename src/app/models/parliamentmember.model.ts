@@ -1,4 +1,4 @@
-export class ParliamnetMember{
+export class ParliamentMember{
     constructor(personId:number,name:string,photoURL:string,birthDate:string){
         this.personId=personId;
         this.name = name;
@@ -9,5 +9,7 @@ export class ParliamnetMember{
     name: string;
     photoURL?: string;
     birthDate: string;
+   
+
     
 }
